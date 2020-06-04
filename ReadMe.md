@@ -7,3 +7,9 @@ run bash setup1.sh and run continuous with bash setup2.sh
 2> Run Dockerfile
 docker build .
 
+###
+docker build -t alpine:fishshell .
+###
+docker run -it --name server alpine:fishshell fish
+
+
